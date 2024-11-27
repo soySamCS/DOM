@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(16, 16, 16);
+    color: aliceblue;
+}
+
+span {
+    color: cornflowerblue;
+}
+
+.oculto {
+    display: none;
+}
