@@ -102,3 +102,53 @@ lista.innerHTML = `<li>Noble 1 Carter</li>
                     <li>Noble 2 Kat</li>
                     <li class = "oculto">Noble 5 Jorge</li>
                     <li>Noble 6 Clasificado</li>`
+
+/* 
+
+    getAttribute()
+
+        Devuelve el valor del atributo del elemento.
+
+            elemento.getAttribute(atributo)
+
+*/
+
+const enlace = document.getElementsByTagName("a");
+
+console.log(enlace[0].getAttribute("href"));
+
+/* 
+
+    removeAttribute
+
+        Elimina el valor del atributo de un elemento.
+
+            elemento.removeAttribute(atributo)
+
+*/
+
+enlace[0].removeAttribute("href")
+console.log(enlace[0].getAttribute("href"));
+
+/* 
+
+    setAttribute()
+
+        Asigna un atributo y un valor a un elemento.
+
+            element.getAttribute(atributo, valor);
+
+        - Sobreescribir un atributo ya declarado.
+        - Crear un nuevo atributo y su valor.
+
+*/
+
+// Antes
+enlace[0].setAttribute("href", "https://www.halopedia.org");
+console.log(enlace[0].getAttribute("href"));
+
+console.log(enlace[0].getAttribute("target")); 
+enlace[0].setAttribute("target", "_blank");
+
+// Después
+console.log(enlace[0].getAttribute("target"));
