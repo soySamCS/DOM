@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(16, 16, 16);
+    color: aliceblue;
+    font-family: Montserrat, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ingredientes {
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid cornflowerblue;
+}
+
+.lista {
+    list-style: none;
+}
+
+.botana {
+    padding: 8px 24px; 
+}
+
+.bg-lightgray {
+    background-color: lightslategray;
+}
+
+.bg-lightpink {
+    background-color: lightpink;
+}
