@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(16, 16, 16);
+    color: aliceblue;
+    font-family: Montserrat, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:darkcyan;
+    color: aliceblue;
+    padding: 24px;
+    max-width: 400px;
+    border-radius: 12px;
+}
+
+.subtitle {
+    margin-bottom: 24px;
+    color:rgb(255, 190, 116);
+}
+
+.list {
+    list-style: none;
+}
+
+.list-item {
+    padding: 12px 8px;
+    color: aliceblue;
+    margin-bottom: 12px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.bg-one {
+    background-color: rgb(255, 0, 81);
+}
+
+.bg-one:hover {
+    background-color: rgb(249, 39, 116);
+}
+
+.bg-two {
+    background-color: rgb(128, 25, 224);
+}
+
+.bg-two:hover {
+    background-color: rgb(172, 85, 254);
+}
