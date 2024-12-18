@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(16, 16, 16);
+    color: aliceblue;
+    font-family: Montserrat, sans-serif;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    color: plum;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 0 0 white;
+    transition: all .300s ease;
+}
+
+button:hover{
+    background-color: rgb(87, 59, 213);
+    box-shadow: 8px 8px 0 0 white;
+}
