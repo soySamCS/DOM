@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: rgb(60, 63, 190);
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+.button {
+    padding: 12px 24px;
+    border-radius: 48px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: aliceblue;
+    background-color: crimson;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.button:hover {
+    background-color: #ff2261;
+    scale: 1.1;
+    transition: all .2s ease;
+}
+
+.button:active {
+    background-color: #37edc2;
+    scale: 1;
+    transition: all .2s ease;
+}
