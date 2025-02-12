@@ -29,7 +29,7 @@ body {
   max-width: 960px;
   background-color: rgb(64, 30, 255);
   border: 1px;
-  color: rgb(72, 249, 143);
+  color: rgb(131, 8, 255);
   border-radius: 1rem;
   padding: 1rem;
   text-align: center;
@@ -76,7 +76,7 @@ body {
 }
 
 .task{
-  background-color: rgb(146, 16, 216);
+  background-color: rgb(23, 227, 250);
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
@@ -107,11 +107,11 @@ body {
 
 .task-icons i {
   font-size: 1.4rem;
-  color:rgb(255, 157, 0);
+  color:rgb(112, 30, 157);
 }
 
 .icon-complete:hover {
-  color: cadetblue;
+  color: rgb(37, 255, 102);
 }
 
 .icon-delete:hover {

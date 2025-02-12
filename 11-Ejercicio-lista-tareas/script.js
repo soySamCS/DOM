@@ -6,13 +6,20 @@ const taskList = document.getElementById('taskList');
 
 //Add event listener
 
-addButton.addEventListener("click", createTask)
+addButton.addEventListener("click", createTask);
+
+document.addEventListener("keydown" , (e) => {
+    {
+        if (e.key === "Enter"){
+            createTask();
+        }
+    }
+});
 
 // Funcion manejadora
 
 function createTask() {
     if(taskInput.value){
-        console.log(taskInput.value);
 
         /* Creamos el contenedor de una tarea */
         const taskItem = document.createElement("div");
@@ -38,6 +45,15 @@ function createTask() {
         taskIcons.append(iconChek,iconDelete);
         taskItem.append(taskText, taskIcons);
         taskList.append(taskItem);
+
+        // Escuchadores de los iconos
+        iconChek.addEventListener("click", (e) => {
+            e.target.parentNode.parentNode.classList.toggle("complete");
+        } );
+
+        iconDelete.addEventListener("click", (e) => {
+            e.target.parentNode.parentNode.remove();
+        } );
 
          // Regresamos el valor vacío al input
         taskInput.value = "";
